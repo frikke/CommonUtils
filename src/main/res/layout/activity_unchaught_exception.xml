@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_sad" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/ooops"
+        android:textAppearance="?attr/textAppearanceHeadline2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/somethingWentWrong"
+        android:textAppearance="?attr/textAppearanceHeadline5"  />
+
+    <TextView
+        android:id="@+id/uncaughtException_openIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/reportGithubLong"
+        android:textAppearance="?attr/textAppearanceCaption"  />
+
+    <Button
+        android:id="@+id/uncaughtException_openIssueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/openIssue" />
+</LinearLayout>
